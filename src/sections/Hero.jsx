@@ -167,7 +167,7 @@ const Hero = () => {
             </div>
 
             {/* Available badge */}
-            <div className="absolute -right-5 top-8 hidden items-center gap-2 rounded-xl border border-slate-800 bg-slate-900/90 px-4 py-3 shadow-xl backdrop-blur-xl sm:flex">
+            {/* <div className="absolute -right-5 top-8 hidden items-center gap-2 rounded-xl border border-slate-800 bg-slate-900/90 px-4 py-3 shadow-xl backdrop-blur-xl sm:flex">
               <Sparkles
                 size={17}
                 className="text-emerald-400"
@@ -176,7 +176,7 @@ const Hero = () => {
               <span className="text-sm font-medium text-slate-200">
                 Open to Work
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
