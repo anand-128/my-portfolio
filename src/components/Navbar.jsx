@@ -39,7 +39,7 @@ const Navbar = () => {
 
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 sm:px-8 lg:px-10">
 
-        {/* ================= LOGO ================= */}
+        {/* LOGO */}
 
         <a
           href="#home"
@@ -50,7 +50,7 @@ const Navbar = () => {
           <span className="text-indigo-400">.</span>
         </a>
 
-        {/* ================= DESKTOP NAV ================= */}
+        {/* DESKTOP NAV */}
 
         <div className="hidden items-center gap-7 lg:flex">
 
@@ -66,7 +66,7 @@ const Navbar = () => {
 
         </div>
 
-        {/* ================= DESKTOP ACTIONS ================= */}
+        {/* DESKTOP ACTIONS */}
 
         <div className="hidden items-center gap-3 lg:flex">
 
@@ -97,7 +97,7 @@ const Navbar = () => {
 
           {/* Resume */}
           <a
-            href="/resume/Anand-Raj-Tiwari-Resume.pdf"
+            href="/resume/Anand-Raj-Tiwari.pdf"
             download
             className="inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-indigo-500"
           >
@@ -108,7 +108,7 @@ const Navbar = () => {
 
         </div>
 
-        {/* ================= MOBILE ACTIONS ================= */}
+        {/* MOBILE ACTIONS */}
 
         <div className="flex items-center gap-2 lg:hidden">
 
@@ -144,7 +144,7 @@ const Navbar = () => {
 
       </nav>
 
-      {/* ================= MOBILE MENU ================= */}
+      {/* MOBILE MENU */}
 
       {menuOpen && (
         <div className="border-t border-slate-800 bg-slate-950 lg:hidden">
