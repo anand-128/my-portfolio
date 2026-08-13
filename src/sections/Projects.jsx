@@ -13,7 +13,7 @@ import {
   CatIcon,
 } from "lucide-react";
 
-import nextJobImage from "../assets/Next-Job.png";
+import nextJobImage from "../assets/next-job.png";
 import gravityCodingImage from "../assets/gravity-coding.png";
 import groceryKaroImage from "../assets/grocery-karo.png";
 import chatAppImage from "../assets/chat-app.png";
